@@ -1,0 +1,8 @@
+<button onClick ={() => setColorMode(colorMode === 'light' ? 'dark' : 'light')} sx={{bg: 'primary',color:'inverseText'}}>Toggle {colorMode === 'light' ? 'dark' : 'light'}</button>
+const [colorMode, setColorMode] = useColorMode();
+<a
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          sx = {{fontWeight: 'bold', color:'primary'}}
+        >
